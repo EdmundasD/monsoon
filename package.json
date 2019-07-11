@@ -1,0 +1,17 @@
+{
+    "name": "monsoon",
+    "version": "1.0.0",
+    "description": "",
+    "main": "emailCredentials.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Edmundas Daunoras",
+    "license": "ISC",
+    "dependencies": {
+        "fetch": "^1.1.0",
+        "imap": "^0.8.19",
+        "limiter": "^1.1.3",
+        "simple-get": "^3.0.3"
+    }
+}
