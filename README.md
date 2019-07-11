@@ -20,6 +20,6 @@ Monsoon can be expanded to support a lot more functionalities, such as resyncing
 
 No! I have removed some of the more sensitive information, for obvious reasons. Below I compiled a list of the information that you need in order for it to work as intended.
 
-1. [emailCredentials.js](emailCredentials.js) requires `user`, `password`, `host`, and `port` fields. For more information, see [Google's article on IMAP](https://support.google.com/mail/answer/7126229?hl=en).
-2. [utilRef.js](utilRef.js) requires `solrOrderEndpoint` value.
-3. [monitors.js](monitors.js) requires `name` and `subject` fields. `id`, `sleep_mins`, and `info_endpoint` are all optional fields.
+1. [emailCredentials.js](https://github.com/EdmundasD/monsoon/blob/master/src/emailCredentials.js) requires `user`, `password`, `host`, and `port` fields. For more information, see [Google's article on IMAP](https://support.google.com/mail/answer/7126229?hl=en).
+2. [utilRef.js](https://github.com/EdmundasD/monsoon/blob/master/util/utilRef.js) requires `solrOrderEndpoint` value.
+3. [monitors.js](https://github.com/EdmundasD/monsoon/blob/master/src/monitors.js) requires `name` and `subject` fields. `id`, `sleep_mins`, and `info_endpoint` are all optional fields.
